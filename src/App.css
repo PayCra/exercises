@@ -1,7 +1,35 @@
 .App {
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 100vh;
+  justify-content: center;
+}
+
+.Zayn {
+  color: yellow;
+}
+
+.Harry {
+  color: green;
+}
+
+.Louis {
+  color: blue;
+}
+
+.Liam {
+  color: red;
+}
+
+.Ni {
+  color: green;
+}
+
+.a {
+  color: antiquewhite;
+}
+
+.ll {
+  color: orange;
 }
