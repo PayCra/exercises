@@ -1,3 +1,43 @@
-.App {
-  text-align: center;
+.Posing{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 100px;
+}
+
+.square{
+  height: 60px;
+  width: 60px;
+}
+
+.flag {
+  height: 20px;
+  width: 60px;
+}
+
+.Harry {
+  background: green;
+}
+
+.Liam {
+  background: red;
+}
+
+.Louis {
+  background: blue;
+}
+
+.Zayn {
+  background: yellow;
+}
+
+.NiallGreen {
+  background: green;
+}
+
+.NiallWhite {
+  background: antiquewhite;
+}
+
+.NiallOrange {
+  background: orange;
 }
