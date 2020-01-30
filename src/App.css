@@ -1,8 +1,4 @@
-.HelloToHarry {
-    color: green;
-    font-family: Arial, serif;
-    font-size: 20px;
-    text-decoration: underline;
+.Position {
     height: 100vh;
     display: flex;
     align-items: center;
