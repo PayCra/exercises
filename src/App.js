@@ -1,11 +1,12 @@
 import React from 'react';
+import Hello from './Components/Hello';
 
 function App() {
-  return (
-    <div>
-      Hello, One Direction.
-    </div>
-  );
+    return (
+        <div>
+            <Hello/>
+        </div>
+    );
 }
 
 export default App;
