@@ -4,15 +4,15 @@ import Hello from './Components/Hello';
 
 function App() {
     return (
+        <body className="Background">
         <div className="App">
-            <Hello name="Zayn"/>
             <Hello name="Harry"/>
-            <Hello name="Louis"/>
             <Hello name="Liam"/>
-            <span>
-         <Hello/><span className="Ni">Ni</span><span className="a">a</span><span className="ll">ll</span>
-        </span>
+            <Hello name="Zayn"/>
+            <Hello name="Louis"/>
+            <div><Hello/><span className="Ni">Ni</span><span className="a">a</span><span className="ll">ll</span></div>
         </div>
+        </body>
     );
 }
 

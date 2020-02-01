@@ -1,17 +1,21 @@
 .App {
-  height: 100vh;
+  text-align: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  height: 100vh;
   justify-content: center;
 }
 
-.Zayn {
-  color: yellow;
+.Background {
+  background: darkgrey;
 }
 
 .Harry {
   color: green;
+}
+
+.Zayn {
+  color: yellow;
 }
 
 .Louis {
