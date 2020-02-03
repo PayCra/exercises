@@ -5,7 +5,15 @@ import './Pinks.css';
 
 class Hello extends Component {
     render() {
-        return <div> <span className="OnePink">Hello, One Direction.</span><span><HaveKids/> <Sammich/></span> </div>;
+        return <div>
+            <span className="OnePink">
+                Hello, One Direction.
+            </span>
+            <span>
+                <HaveKids/>
+                <Sammich/>
+            </span>
+        </div>;
     }
 }
 
