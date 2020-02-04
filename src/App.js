@@ -10,7 +10,12 @@ function App() {
             <Hello name="Liam"/>
             <Hello name="Zayn"/>
             <Hello name="Louis"/>
-            <div><Hello/><span className="Ni">Ni</span><span className="a">a</span><span className="ll">ll</span></div>
+            <div>
+                <Hello/>
+                <span className="Ni">Ni</span>
+                <span className="a">a</span>
+                <span className="ll">ll</span>
+            </div>
         </div>
         </body>
     );
