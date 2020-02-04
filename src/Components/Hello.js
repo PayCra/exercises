@@ -4,8 +4,9 @@ import './Hello.css';
 class Hello extends Component {
     render() {
         return <span>
-           <span className="Pink">Hello, </span><span className={this.props.mic}>{this.props.name}</span>
-       </span>;
+            <span className="Pink">Hello, </span>
+            <span className={this.props.mic}>{this.props.name}</span>
+               </span>;
     }
 }
 
