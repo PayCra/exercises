@@ -1,0 +1,36 @@
+.Box {
+    height: 60px;
+    width: 60px;
+}
+
+.Zayn {
+    background: yellow;
+}
+
+.Zayn.darker {
+    background: darkgoldenrod;
+}
+
+.Harry {
+    background: green;
+}
+
+.Harry.darker {
+    background: darkgreen;
+}
+
+.Liam {
+    background: red;
+}
+
+.Liam.darker {
+    background: darkred;
+}
+
+.Louis {
+    background: blue;
+}
+
+.Louis.darker {
+    background: darkblue;
+}

@@ -1,15 +1,16 @@
 import React from 'react';
 import './App.css';
-import ShadyBox from './Components/ShadyBox';
+import Box from './Components/Box';
+import Flag from './Components/Flag';
 
 function App() {
     return (
         <div className="App">
-            <ShadyBox name="Louis"/>
-            <ShadyBox name="Zayn"/>
-            <ShadyBox name="Harry"/>
-            <ShadyBox name="Liam"/>
-            <ShadyBox name="Niall"/>
+            <Box name="Zayn"/>
+            <Box name="Harry"/>
+            <Box name="Liam"/>
+            <Box name="Louis"/>
+            <Flag/>
         </div>
     );
 }
