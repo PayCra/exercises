@@ -1,43 +1,46 @@
-.Posing{
+.App {
   display: flex;
+  flex-direction: row;
   justify-content: space-evenly;
   padding-top: 100px;
-}
-
-.square{
-  height: 60px;
-  width: 60px;
-}
-
-.flag {
-  height: 20px;
-  width: 60px;
-}
-
-.Harry {
-  background: green;
-}
-
-.Liam {
-  background: red;
-}
-
-.Louis {
-  background: blue;
 }
 
 .Zayn {
   background: yellow;
 }
 
-.NiallGreen {
+.Zayn.darker {
+  background: darkgoldenrod;
+}
+
+.Harry {
   background: green;
 }
 
-.NiallWhite {
-  background: antiquewhite;
+.Harry.darker {
+  background: darkgreen;
 }
 
-.NiallOrange {
+.Louis {
+  background: blue;
+}
+
+.Louis.darker {
+  background: darkblue;
+}
+
+.Liam {
+  background: red;
+}
+
+.Liam.darker {
+  background: darkred;
+}
+
+.Niall {
   background: orange;
+}
+
+.Niall.darker {
+  background: darkorange;
 }
