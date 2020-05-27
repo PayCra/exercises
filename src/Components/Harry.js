@@ -1,22 +1,23 @@
 import React, {Component} from 'react';
-import './Fab.css';
+import './Harry.css';
 
 class Harry extends Component {
 
-    constructor() {
-        super();
-        this.state = {
-            fablevel: "solid fabulous",
-            color: ""
+        state = {
+            color: "",
+            fablevel: "pretty fabulous"
         };
-    }
 
-    handleClick = () => this.setState({fablevel: "almost Lizzo's level of faboo", color: "Fab"});
+    handleClick = () => {
+        if (this.state.color === "darker") {
+            this.setState({color: "", fablevel: "pretty fabulous"})
+        } else {
+            this.setState({color: "darker", fablevel: "almost Lizzo's level of fabboo"})
+        }
+    };
 
     render() {
-        return <span onClick={this.handleClick} className={this.state.color}>
-           {this.state.fablevel}
-       </span>;
+        return <span className={"Pinkish " + this.state.color} onClick={this.handleClick}>{this.state.fablevel}.</span>
     }
 }
 
