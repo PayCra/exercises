@@ -3,3 +3,49 @@
   justify-content: space-evenly;
   padding-top: 100px;
 }
+
+.text {
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.Zayn {
+  background: yellow;
+}
+
+.Zayn.darker {
+  background: darkgoldenrod;
+}
+
+.Harry {
+  background: green;
+}
+
+.Harry.darker {
+  background: darkgreen;
+}
+
+.Louis {
+  background: blue;
+}
+
+.Louis.darker {
+  background: darkblue;
+}
+
+.Liam {
+  background: red;
+}
+
+.Liam.darker {
+  background: darkred;
+}
+
+.Niall {
+  background: orange;
+}
+
+.Niall.darker {
+  background: darkorange;
+}

@@ -3,14 +3,15 @@ import './ShadyBox.css';
 
 class ShadyBox extends Component {
 
-    constructor(){
-        super ();
-        this.state = {
-            color: ""
-        };
-    }
+    state = {
+        color: ""
+    };
 
     handleClick = () => {
+        if (this.props.clickCounter !== undefined) {
+            this.props.clickCounter();
+        }
+
         if (this.state.color==='darker') {
             this.setState({color: ""})
         }
@@ -20,7 +21,8 @@ class ShadyBox extends Component {
     };
 
     render() {
-        return <div className={"ShadyBox " + this.props.name + " " + this.state.color} onClick={this.handleClick}/>
+        return <div className={"ShadyBox " + this.props.name + " " + this.state.color}
+                    onClick={this.handleClick}/>
     };
 }
 
