@@ -1,5 +1,96 @@
-.App {
+.text {
+  height: 60px;
+  position: absolute;
+  top: 100px; left: 77.3vw;
+}
+
+.in-the-middle {
   display: flex;
-  justify-content: space-evenly;
-  padding-top: 100px;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.Zayn {
+  background: yellow;
+  position: absolute;
+  top: 100px; left: 9.3vw;
+}
+
+.Zayn.darker {
+  background: darkgoldenrod;
+  position: absolute;
+  top: 100px; left: 9.3vw;
+}
+
+.Harry {
+  background: green;
+  position: absolute;
+  top: 100px; left: 22.9vw;
+}
+
+.Harry.darker {
+  background: darkgreen;
+  position: absolute;
+  top: 100px; left: 22.9vw;
+}
+
+.Louis {
+  background: blue;
+  position: absolute;
+  top: 100px; left: 36.5vw;
+}
+
+.Louis.darker {
+  background: darkblue;
+  position: absolute;
+  top: 100px; left: 36.5vw;
+}
+
+.Liam {
+  background: red;
+  position: absolute;
+  top: 100px; left: 50.1vw;
+}
+
+.Liam.darker {
+  background: darkred;
+  position: absolute;
+  top: 100px; left: 50.1vw;
+}
+
+.GreenNiall {
+  background: green;
+  position: absolute;
+  top: 100px; left: 63.7vw;
+}
+
+.GreenNiall.darker {
+  background: darkgreen;
+  position: absolute;
+  top: 100px; left: 63.7vw;
+}
+
+.WhiteNiall {
+  background: antiquewhite;
+  position: absolute;
+  top: 120px; left: 63.7vw;
+}
+
+.WhiteNiall.darker {
+  background: lightgrey;
+  position: absolute;
+  top: 120px; left: 63.7vw;
+}
+
+.OrangeNiall {
+  background: orange;
+  position: absolute;
+  top: 140px; left: 63.7vw;
+}
+
+.OrangeNiall.darker {
+  background: darkorange;
+  position: absolute;
+  top: 140px; left: 63.7vw;
 }
