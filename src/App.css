@@ -1,5 +1,77 @@
-.App {
+.organization {
+  display: flex;
+  padding-top: 100px;
+}
+
+.lineup {
+  width: 75vw;
   display: flex;
   justify-content: space-evenly;
-  padding-top: 100px;
+}
+
+.text {
+  height: 60px;
+}
+
+.in-the-middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+}
+
+.Zayn {
+  background: yellow;
+}
+
+.Zayn.darker {
+  background: darkgoldenrod;
+}
+
+.Harry {
+  background: green;
+}
+
+.Harry.darker {
+  background: darkgreen;
+}
+
+.Louis {
+  background: blue;
+}
+
+.Louis.darker {
+  background: darkblue;
+}
+
+.Liam {
+  background: red;
+}
+
+.Liam.darker {
+  background: darkred;
+}
+
+.Green {
+  background: green;
+}
+
+.Green.darker {
+  background: darkgreen;
+}
+
+.White {
+  background: antiquewhite;
+}
+
+.White.darker {
+  background: lightgrey;
+}
+
+.Orange {
+  background: orange;
+}
+
+.Orange.darker {
+  background: darkorange;
 }
