@@ -1,3 +1,50 @@
 .App {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+
+.onhead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.crown {
+  width: 50px;
+  height: 50px;
+  fill: darkorange;
+}
+
+.Button {
+  width: 70px;
+  height: 70px;
+  background: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: mediumvioletred;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: lightgrey;
+}
+
+.Circle.bluer {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: blueviolet;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
