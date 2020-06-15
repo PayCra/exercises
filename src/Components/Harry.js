@@ -3,13 +3,10 @@ import './Fab.css';
 
 class Harry extends Component {
 
-    constructor() {
-        super();
-        this.state = {
-            fablevel: "solid fabulous",
-            color: ""
-        };
-    }
+    state = {
+        fablevel: "solid fabulous",
+        color: ""
+    };
 
     handleClick = () => this.setState({fablevel: "almost Lizzo's level of faboo", color: "Fab"});
 
