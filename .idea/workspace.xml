@@ -1,9 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="eb872582-15a9-46ac-a254-6257501aee6d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1X5aLscuGTChaCjIsyIr7bMOPJL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path" value="node" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task id="LOCAL-00001" summary="6.1. One Direction in arrays.">
+      <created>1592322567211</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592322567211</updated>
+    </task>
+    <task id="LOCAL-00002" summary="6.2. Asking for a dog name.">
+      <created>1592322801372</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592322801372</updated>
+    </task>
+    <task id="LOCAL-00003" summary="6.2_alt. Asking for a dog name with forEach.">
+      <created>1592323057420</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592323057420</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2.5. Harry talks, got rid of constructor." />
+    <MESSAGE value="6.1. One Direction in arrays." />
+    <MESSAGE value="6.2. Asking for a dog name." />
+    <MESSAGE value="6.2_alt. Asking for a dog name with forEach." />
+    <option name="LAST_COMMIT_MESSAGE" value="6.2_alt. Asking for a dog name with forEach." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="402" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592323108436">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="402" y="115" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.797@0.23.1440.797" timestamp="1592323108436" />
+    <state x="217" y="23" key="CommitChangelistDialog2" timestamp="1592323800684">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="217" y="23" key="CommitChangelistDialog2/0.23.1440.797@0.23.1440.797" timestamp="1592323800684" />
+    <state x="570" y="326" key="VCS.ChangelistChooser" timestamp="1592323791081">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="570" y="326" key="VCS.ChangelistChooser/0.23.1440.797@0.23.1440.797" timestamp="1592323791081" />
+    <state x="421" y="84" key="git4idea.branch.GitSmartOperationDialog" timestamp="1592323822430">
+      <screen x="0" y="23" width="1440" height="797" />
+    </state>
+    <state x="421" y="84" key="git4idea.branch.GitSmartOperationDialog/0.23.1440.797@0.23.1440.797" timestamp="1592323822430" />
   </component>
 </project>
