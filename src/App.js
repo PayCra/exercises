@@ -1,10 +1,12 @@
 import React from 'react';
-import './App.css';
+
+let myFavoriteCultivators = ['Lan Xichen','Jin Guangyao','Nie Huaisang','Wei Wuxian','Jiang Cheng']
+
+let myAbsoluteFavoriteCultivators = myFavoriteCultivators.map(element=><div key={"cultivator" + myFavoriteCultivators.indexOf(element)}>{element}</div>)
 
 function App() {
   return (
-    <div className="App">
-    </div>
+      <div>{myAbsoluteFavoriteCultivators}</div>
   );
 }
 
